@@ -18,18 +18,34 @@
         margin-right: 50px;
         display: flex;
         justify-content: space-around;
+        
     
+    }
+
+    .nav-1 a {
+        @media screen and (max-width:500px) {
+            position: relative;
+            
+        }
     }
 
     .logo-nav {
         width: 48%;
         margin-bottom: 20px;
         margin-left: 80px;
+        @media screen and (max-width:500px) {
+            position: absolute;
+            margin: -8%;
+            text-align: center;
+            height: 70%;
+        }
     }
+
 
     .logo-nav h2 {
         font-size: 40px;
         padding-bottom: 20px;
+        
     }
 }
     

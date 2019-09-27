@@ -200,10 +200,23 @@ img {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 500px) {
+  .navbar .nav-1 a {
+    position: relative;
+  }
+}
 .navbar .logo-nav {
   width: 48%;
   margin-bottom: 20px;
   margin-left: 80px;
+}
+@media screen and (max-width: 500px) {
+  .navbar .logo-nav {
+    position: absolute;
+    margin: -8%;
+    text-align: center;
+    height: 70%;
+  }
 }
 .navbar .logo-nav h2 {
   font-size: 40px;
