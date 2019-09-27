@@ -1,51 +1,55 @@
 // Navigation Styles here
 
 
-.navbar { 
-    height: 50%;
-    position: relative;
+.navi-bar { 
+    max-width: 100%;
     font-size: 16px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
+    justify-content: space-evenly;
     border-bottom: 2px dashed silver;
+    margin-top: 15px;
+    
+    @media screen and (max-width:500px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    .logo-nav {
+        width: 48%;
+        padding-top: 20px;
+        @media screen and (max-width:500px) {
+            width: 100%;
+            text-align: center;
+        }
+        
+    }
+
+    .logo-nav h2 {
+        width: 100%;
+        text-align: center;
+        
+        
+    }
 
     .nav-1 {
         width: 48%;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 50px;
         display: flex;
-        justify-content: space-around;
+        margin-bottom: 10px;
+       
+        @media screen and (max-width:500px) {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
         
     
     }
 
     .nav-1 a {
-        @media screen and (max-width:500px) {
-            position: relative;
-            
-        }
-    }
-
-    .logo-nav {
-        width: 48%;
-        margin-bottom: 20px;
-        margin-left: 80px;
-        @media screen and (max-width:500px) {
-            position: absolute;
-            margin: -8%;
-            text-align: center;
-            height: 70%;
-        }
-    }
-
-
-    .logo-nav h2 {
-        font-size: 40px;
-        padding-bottom: 20px;
+        padding: 25px; 
         
     }
+
 }
     
