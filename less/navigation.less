@@ -1,1 +1,72 @@
 // Navigation Styles here
+
+
+.navi-bar { 
+    max-width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px dashed silver;
+    margin-top: 15px;
+    
+    @media screen and (max-width: 768px){
+        width: 100%;
+ 
+        
+    }
+    @media @mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo-nav {
+        width: 30%;
+        padding-top: 10px;
+        @media @tablet {
+            align-content: center;
+            width: 100%;
+
+        }
+        @media @mobile {
+            width: 100%;
+            text-align: center;
+        }
+        
+    }
+
+    .logo-nav h2 {
+        width: 100%;
+        text-align: center;
+        @media @mobile {
+            text-align: center;
+
+        }
+        
+    }
+
+    .nav-1 {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        @media @tablet {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            
+
+        }
+        @media @mobile {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        
+    
+    }
+
+
+}
+    
